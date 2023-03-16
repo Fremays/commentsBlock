@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>comments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+Комментарии
+<form name="addComment">
+    <table>
+        <tr>
+            <td>Сообщение</td>
+            <td>
+                <textarea name="message" type="text" class="message" value=""></textarea>
+                <div id="errorMessage"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Имя</td>
+            <td>
+                <input name="name" type="text" value="">
+                <div id="errorName"></div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>Дата</td>
+            <td>
+                <input name="date" type="date" value="" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="submit" value="Отправить">
+            </td>
+        </tr>
+    </table>
+</form>
+<div id="comments__section">
+</div>
+<script src="script.js"></script>
+</body>
+</html>

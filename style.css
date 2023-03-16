@@ -1,0 +1,63 @@
+body{
+    margin: 20px;
+    background-color: #EEEEEE;
+}
+
+.remove-button {
+    position: absolute;
+    font-size: 110%;
+    color: darkred;
+    left: 725px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.like {
+    position: relative;
+    bottom: 23px;
+    right: -96.5%;
+    font-size: 110%;
+    transition: color 0.5s ease;
+    color: white;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.active {
+    transition: color 1s ease;
+    color: red;
+}
+
+.comment{
+    width: 705px;
+    margin-bottom: 10px;
+    background-color: #D7CCC8;
+    border-radius: 5%;
+    padding: 10px 25px 0px 25px;
+    margin-top: 10px;
+}
+
+#errorName, #errorMessage {
+    color: red;
+}
+
+p{
+    margin: 0 0;
+}
+.message {
+    width: 600px;
+    height: 60px;
+}
+.commentMessage{
+    padding: 5px 5px;
+    background-color: #BCAAA4;
+    min-height: 40px;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
